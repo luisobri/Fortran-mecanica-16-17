@@ -1,0 +1,7 @@
+23:24:37 **** Incremental Build of configuration Debug for project cap1_5p ****
+Info: Internal Builder is used for build
+gfortran -funderscoring -O0 -g -Wall -c -fmessage-length=0 -o cap1_5p.o "..\\cap1_5p.f95" 
+gfortran -o cap1_5p cap1_5p.o 
+
+23:24:39 Build Finished (took 2s.606ms)
+

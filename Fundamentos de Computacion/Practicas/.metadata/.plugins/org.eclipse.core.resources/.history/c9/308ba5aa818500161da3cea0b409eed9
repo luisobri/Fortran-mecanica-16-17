@@ -1,0 +1,13 @@
+/*
+ * cap1_1p.f95
+ *
+ *  Created on: 28 sept. 2016
+ *      Author: luisobri
+ */
+Program cap1_1p
+    write 'FORTRAN'
+    WRITE 'FORmula TRANSlation'
+end
+
+
+

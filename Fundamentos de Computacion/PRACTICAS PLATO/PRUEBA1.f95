@@ -1,0 +1,10 @@
+PROGRAM PRUEBA1
+
+	IMPLICIT NONE
+
+	WRITE(*,*)'HOLA A TODOS'
+	WRITE(*,*)'By Luisobri Industries 2016'
+
+    
+
+END PROGRAM PRUEBA1

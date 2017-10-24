@@ -1,0 +1,34 @@
+	!lectura de matriz por teclado dinamica
+		print*, 'introduce el numero de filas de la matriz A'
+        read*, ROWS_A
+        print*,'introduce el numero de columnas de la matriz A'
+        read*, COLS_A
+        
+        allocate(matriz_A(COLS_A,ROWS_A))
+        do i=0,ROWS_A
+            do j=0,COLS_A
+                print*,'introduce el elemento: (',COLS_A,',',ROWS_A,')'
+                read*, matriz_A(j,i)
+            end do
+        end do
+
+
+
+!bucle de finalización del programa
+subroutine killer_loop()
+    integer::killer
+    killer=0
+
+    print*, 'Salir? 1 - afirmativo'
+    read*,killer
+    if(killer==1) stop 'fin del programa'
+
+end subroutine
+
+
+!impresión de matriz con puntero
+	do i=0,ROWS_A
+            do j=0,COLS_A
+                print*,'matriz A (',COLS_A,',',ROWS_A,')','=',matriz_A(j,i)
+            end do
+        end do

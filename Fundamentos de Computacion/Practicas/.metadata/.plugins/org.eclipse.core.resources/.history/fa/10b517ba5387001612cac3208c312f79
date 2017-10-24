@@ -1,0 +1,8 @@
+
+program cap1_1p
+    write(*,*) 'FORTRAN'
+    WRITE(*,*) 'FORmula TRANSlation'
+end Program cap1_1p
+
+
+

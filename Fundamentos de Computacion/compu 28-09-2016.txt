@@ -1,0 +1,2 @@
+1/3 división ente enteros => arrastra error al dar un numero entero
+1.0/3 división entre reales => obtiene el valor real de la sivisión con todos los decimales
