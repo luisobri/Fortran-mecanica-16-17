@@ -1,6 +1,7 @@
 # Fortran-mecanica-16-17
     Material de la asignatura de computación de ingenieria mecanica de la UC del curso de 2016-17.
-    Material compartido como referencia y/o ejemplos, no se encuentran todos los ejercicios ni se garantiza el funcionamiento de todos. 
+    Material compartido como referencia y/o ejemplos, no se encuentran todos los ejercicios,
+    ni se garantiza el funcionamiento de todos. 
     Copyright (C) 2017  Luis Sobrino Fernández
 
     This program is free software: you can redistribute it and/or modify
